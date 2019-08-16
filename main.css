@@ -6,8 +6,9 @@
 
 html,
 body {
-  background: silver;
-  font-family: cursive, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: rgb(192, 189, 189);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: bold;
 }
 
 #navbar ul {
@@ -15,14 +16,14 @@ body {
 }
 
 #navbar ul li {
-  color: #b42a2a;
+  color: #292727;
   display: inline-block;
   padding: 1rem;
   position: relative;
 }
 
 #navbar ul li a {
-  color: #b42a2a;
+  color: #292727;
   text-decoration: none;
 }
 
@@ -55,5 +56,10 @@ body {
  }
 
  #navbar ul li:hover ul li a {
-   color: #b42a2a;
+   color: #292727;
+ }
+
+ #navbar ul li:hover ul li:hover {
+   background: #adadad98;
+   color: inherit;
  }
