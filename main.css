@@ -1,3 +1,8 @@
+:root {
+  --primary-color: coral;
+  --secondary-color: chocolate;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -34,7 +39,7 @@ body {
 
 #navbar ul li:hover {
   cursor: pointer;
-  background: coral;
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -67,7 +72,7 @@ body {
  #navbar ul li:hover ul li span {
    float: right;
    color: #fff;
-   background: coral;
+   background: var(--primary-color);
    padding: 0.2rem 0.5rem;
    text-align: center;
    font-size: 0.89rem;
@@ -75,7 +80,7 @@ body {
  }
 
  #navbar ul li:hover ul li:hover span {
-   background: chocolate;
+   background: var(--secondary-color);
  }
 
  #showcase {
@@ -87,4 +92,20 @@ body {
    text-align: center;
    padding: 0 2rem;
    background: coral;
+ }
+
+ #showcase h1 {
+   color: #fff;
+   font-size: 3.9rem;
+ }
+
+ @media (max-width: 600px) {
+   #navbar ul li {
+     display: block;
+   }
+
+   #navbar ul li:hover ul {
+     width: 100%;
+     position: relative;
+   }
  }
