@@ -1,5 +1,5 @@
 :root {
-  --primary-color: coral;
+  --primary-color: rgb(65, 42, 60);
   --secondary-color: chocolate;
 }
 
@@ -11,7 +11,7 @@
 
 html,
 body {
-  background: rgb(192, 189, 189);
+  background: rgb(149, 223, 252);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: bold;
 }
@@ -21,14 +21,14 @@ body {
 }
 
 #navbar ul li {
-  color: #292727;
+  color: #77437c;
   display: inline-block;
   padding: 1rem;
   position: relative;
 }
 
 #navbar ul li a {
-  color: #292727;
+  color: #77437c;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ body {
 
  #navbar ul li:hover ul li {
    display: block;
-   background: #d8d8d898;
+   background: #6b606d98;
  }
 
  #navbar ul li:hover ul li a {
@@ -65,7 +65,7 @@ body {
  }
 
  #navbar ul li:hover ul li:hover {
-   background: #adadad98;
+   background: #7e7a8098;
    color: inherit;
  }
 
@@ -91,7 +91,7 @@ body {
    justify-content: center;
    text-align: center;
    padding: 0 2rem;
-   background: coral;
+   background: var(--primary-color);
  }
 
  #showcase h1 {
